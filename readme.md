@@ -1,0 +1,1 @@
+Hello EveryBody! I'm Paul's student on high school on Semarang City, Central Java.

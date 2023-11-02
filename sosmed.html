@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SOSMED</title>
+    <!-- Tautan ke Font Awesome CSS dan file CSS Anda -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <h1>Sosial Media</h1>
+    <div class="back-to-home">
+  <a href="index.html">
+    <i class="fas fa-home icon-corner"></i>
+    </a>
+</div>
+
+    <div class="social-media">
+        <a href="https://www.facebook.com/paulchristii" target="_blank" id="facebook-link">
+            <i class="fab fa-facebook"></i> Facebook
+        </a>
+        <a href="https://twitter.com/paul's" target="_blank" id="twitter-link">
+            <i class="fab fa-twitter"></i> Twitter
+        </a>
+        <a href="https://www.instagram.com/initiaann_0705" target="_blank" id="instagram-link">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://www.github.com/dreamliner21" target="_blank" id="github-link"><i class="fab fa-github fa-github"></i> GitHub</a>
+        <a href="https://www.tiktok.com/@paulchristi21" target="_blank" id="tiktok-link"><i class="fab fa-tiktok fa-tiktok"></i> TikTok</a>
+    </div>
+    
+    <script>
+        // Menambahkan event listener untuk tautan sosial media
+        document.getElementById("facebook-link").addEventListener("click", function(event) {
+            event.preventDefault(); // Menghentikan tindakan default tautan
+            window.open(this.href, '_blank'); // Membuka tautan dalam tab baru
+        });
+
+        document.getElementById("twitter-link").addEventListener("click", function(event) {
+            event.preventDefault();
+            window.open(this.href, '_blank');
+        });
+
+        document.getElementById("instagram-link").addEventListener("click", function(event) {
+            event.preventDefault();
+            window.open(this.href, '_blank');
+        });
+        document.getElementById("github-link").addEventListener("click", function(event) {
+          event.preventDefault();
+          window.open(this.href, '_blank');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+body {
+  background-image: url('/bbb21.png');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'Titan One', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 15px;
+  background-image: linear-gradient(45deg, #ff5722, #007bff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.icon-corner {
+  position: fixed;
+  top: 10px; /* Atur jarak dari atas */
+  left: 10px; /* Atur jarak dari kiri */
+  opacity: 0.4; /* Atur opacity */
+  font-size: 10px; /* Sesuaikan ukuran ikon */
+  z-index: 999; /* Atur indeks z agar di atas konten lain */
+  color: #fff;
+}
+
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Jarak antara ikon-ikon */
+  font-family: 'Joti One', serif;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Joti One', serif;
+}
+
+.social-media a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+}
+
+.social-media a:hover {
+  color: #fff; /* Warna yang berbeda saat tautan dihover */
+}
+
+/* Atur warna ikon sesuai keinginan Anda */
+.social-media i.fab.fa-facebook {
+  color: #fff;
+}
+
+.social-media i.fab.fa-twitter {
+  color: #fff;
+}
+
+.social-media i.fab.fa-instagram {
+  color: #fff;
+}
+
+/* Atur warna ikon GitHub dan animasinya */
+.social-media i.fab.fa-github {
+  color: #fff;
+}
+
+/* Atur warna ikon TikTok */
+.social-media i.fab.fa-tiktok {
+  color: #fff;
+}
+
+/* Menambahkan ruang antara ikon dan teks */
+.social-media i, .social-media span {
+  margin-top: 5px;
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  10% { transform: translate(-2px, 0); }
+  20% { transform: translate(2px, 0); }
+  30% { transform: translate(-2px, 0); }
+  40% { transform: translate(2px, 0); }
+  50% { transform: translate(-2px, 0); }
+  60% { transform: translate(2px, 0); }
+  70% { transform: translate(-2px, 0); }
+  80% { transform: translate(2px, 0); }
+  90% { transform: translate(-2px, 0); }
+  100% { transform: translate(0, 0); }
+}
